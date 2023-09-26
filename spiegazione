@@ -1,0 +1,9 @@
+Conoscendo il percorso per poter arrivare da laptop0 a laptop2 ed effettuando un ping tra la prima e la seconda macchina:
+spedisco un pacchetto (ping, ICMP) con
+src IP di laptop0, dst IP di laptop2
+src MAC di laptop0, dst MAC di router1
+lo switch quindi inoltra il pacchetto verso router1
+router1 spedisce il pacchetto con
+src IP di laptop0, dst IP di laptop2
+src MAC di router1, dst MAC di laptop2
+che arriva a destinazione tramite lo switch
